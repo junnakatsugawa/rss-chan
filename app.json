@@ -3,17 +3,16 @@
     "env": {
         "BOT_TOKEN": "5316551200:AAFctkCD2EE4T9GfCDPXWZ6_75oofhUoCUU",
         "CHAT_ID": "-1001714438395",
+        "DATABASE_URL": "postgres://qagxwrux:PY9LNVgZd1wnzyPTMkwkyR89EEMNU0ZA@tai.db.elephantsql.com/qagxwrux",
         "DELAY": "10",
-        "OWNER_ID": "831054990",
-        "DATABASE_URL": {
-            "required": true
-        }
+        "OWNER_ID": "831054990"
     },
     "formation": {
         "worker": {
             "quantity": 1
         }
     },
+    "addons": [],
     "buildpacks": [],
     "stack": "container"
 }
